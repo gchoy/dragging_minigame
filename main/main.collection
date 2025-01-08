@@ -1,2 +1,16 @@
 name: "main"
 scale_along_z: 0
+embedded_instances {
+  id: "coin_factory"
+  data: "components {\n"
+  "  id: \"spawn_coins\"\n"
+  "  component: \"/main/scripts/spawn_coins.script\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"factory\"\n"
+  "  type: \"factory\"\n"
+  "  data: \"prototype: \\\"/main/coin_prototype.go\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+}
