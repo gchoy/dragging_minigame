@@ -1,0 +1,5 @@
+function on_message(self, message_id, message, sender)
+	if message_id == hash("start") then
+		label.set_text("#counter_label", "Coins:" .. message.count )
+	end
+end

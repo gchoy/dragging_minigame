@@ -9,8 +9,8 @@ embedded_components {
   "}\n"
   ""
   scale {
-    x: 2.0
-    y: 2.0
+    x: 1.5
+    y: 1.5
   }
 }
 embedded_components {
@@ -32,7 +32,7 @@ embedded_components {
   "    index: 0\n"
   "    count: 1\n"
   "  }\n"
-  "  data: 18.139536\n"
+  "  data: 14.366511\n"
   "}\n"
   ""
 }
